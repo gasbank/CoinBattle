@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7dcd91d558811941b6572aeca17a991, type: 3}
+  m_Name: Concentrate
+  m_EditorClassIdentifier: 
+  mesh: {fileID: 2055039968126542162, guid: 298368e85095c2e44982d959c728f3a7, type: 3}
+  sprite: {fileID: 21300000, guid: 1bf8762989b97b742a3a28f603377fb6, type: 3}
+  title: "\uC9D1\uC911"
+  description: "\uB2E4\uC74C \uACF5\uACA9\uC758 \uC704\uB825\uC744 <b>2\uBC30</b>\uB85C
+    \uB9CC\uB4E0\uB2E4."
