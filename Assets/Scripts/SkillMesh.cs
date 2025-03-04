@@ -14,6 +14,10 @@ public class SkillMesh : MonoBehaviour
             transform.position =
                 Vector3.SmoothDamp(transform.position, Target.transform.position, ref vel, approachSmoothTime);
         }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -22,7 +26,7 @@ public class SkillMesh : MonoBehaviour
 
         if (other.TryGetComponent<Monster>(out var monster))
         {
-            monster.ApplyDamage(100);
+            _ = monster.ApplyDamageAsync(100);
             Destroy(gameObject);
         }
     }
